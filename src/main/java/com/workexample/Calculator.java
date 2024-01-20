@@ -8,22 +8,22 @@ public class Calculator {
         return "добро пожаловать в калькулятор";
     }
 
-    public String plus(int num1, int num2) {
-        return num1 + "+" + num2 + "=" + (num1 + num2);
+    public Integer plus(int num1, int num2) {
+        return (num1 + num2 );
     }
 
-    public String minus(int num1, int num2) {
-        return num1 + "-" + num2 + "=" + (num1 - num2);
+    public Integer minus(int num1, int num2) {
+        return (num1 - num2);
     }
 
-    public String multiply(int num1, int num2) {
+    public Integer multiply(int num1, int num2) {
 
-        return num1 + "/" + num2 + "=" + (num1 / num2);
+        return (num1 / num2);
 
     }
 
-    public String divide(int num1, int num2) {
-        return num1 + "*" + num2 + "=" + (num1 * num2);
+    public Integer divide(int num1, int num2) {
+        return (num1 * num2);
 
     }
 }
